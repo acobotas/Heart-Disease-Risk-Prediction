@@ -49,11 +49,13 @@ The ROC curve summarizes the model’s ability to discriminate between classes a
 
 ![ROC Curve](images/roc_curve.png)
 
-## Key Insights
-* Age, BMI, and systolic BP are strong predictors of CHD.
-* Removing multicollinear features improved model stability.
-* Log-transforming skewed features increased model performance.
-* Optimized threshold increased F2 from 0.487 to 0.525 on the test set.
+## Key Insights & Conclusions
+
+- **F2 Score:** The optimized model achieved an F2 score of **0.525** on the test set, reflecting the balance between recall and precision while prioritizing the detection of at-risk patients.  
+
+- **Recall:** With the optimized threshold, the model achieved a **recall of ~80%**, meaning it correctly identifies 8 out of 10 patients who will develop CHD within 10 years. This high recall is crucial for a screening tool where missing at-risk patients carries significant consequences.  
+
+- **ROC-AUC:** The model achieved a **ROC-AUC of 0.694**, indicating that it can reasonably distinguish between patients who will and will not develop CHD over 10 years. A ROC-AUC closer to 1 would indicate perfect separability, while 0.5 represents random guessing.  
 
 ## Future Improvements
 * Use pipelines for preprocessing and modeling.
