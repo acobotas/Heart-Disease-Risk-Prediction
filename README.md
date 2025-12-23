@@ -15,7 +15,7 @@ An end-to-end logistic regression project predicting the 10-year risk of coronar
 
 **Problem:** CHD is a leading cause of death, and early identification of high-risk patients can save lives and reduce healthcare costs.  
 
-**Solution:** Built a logistic regression model to predict 10-year CHD risk using patient data. Optimized the decision threshold for F2-score to prioritize recall, ensuring high-risk patients are identified.
+**Solution:** Built a logistic regression model with class-weight balancing and threshold optimized for F2 score. Preprocessed data, log-transformed skewed features, and removed multicollinear variables. Achieved F2 = 0.525 and ~80% recall on the test set, enabling early identification of at-risk patients for targeted interventions.
 
 ## Objectives
 * Predict 10-year risk of CHD using logistic regression.
