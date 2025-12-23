@@ -7,7 +7,7 @@
 
 An end-to-end logistic regression project predicting the 10-year risk of coronary heart disease (CHD).
 
-## Quick Linkss
+## Quick Links
 * ➡️ **View the Jupyter Notebook on GitHub**: [chd-risk-prediction-logit.ipynb](https://github.com/acobotas/Heart-Disease-Risk-Prediction/blob/main/notbeook.ipynb)
 * **Dataset:** [Cardiovascular Study Dataset on Kaggle](https://www.kaggle.com/datasets/christofel04/cardiovascular-study-dataset-predict-heart-disea)
 
