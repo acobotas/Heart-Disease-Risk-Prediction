@@ -6,7 +6,7 @@
 ![Machine learning](https://img.shields.io/badge/Machine_Learning-0078D4?style=for-the-badge)
 ![Classification](https://img.shields.io/badge/Classification-C24945?style=for-the-badge)
 
-*An end-to-end logistic regression project predicting the 10-year risk of coronary heart disease (CHD).
+An end-to-end logistic regression project predicting the 10-year risk of coronary heart disease (CHD).
 
 ## Quick Links
 * **Notebook:** Regression: Cardiovascular Disease Prediction
