@@ -51,7 +51,7 @@ The ROC curve summarizes the model’s ability to discriminate between classes a
 
 ## Key Insights & Conclusions
 
-- **F2 Score:** The optimized model achieved an F2 score of **0.525** on the test set, reflecting the balance between recall and precision while prioritizing the detection of at-risk patients.  
+- **F2 Score:** The initial model had an F2 score of **0.487** on the test set. After threshold optimization, the F2 score increased to **0.525**, an improvement of approximately **7.8%**, reflecting better detection of at-risk patients while maintaining a balance between recall and precision.  
 
 - **Recall:** With the optimized threshold, the model achieved a **recall of ~80%**, meaning it correctly identifies 8 out of 10 patients who will develop CHD within 10 years. This high recall is crucial for a screening tool where missing at-risk patients carries significant consequences.  
 
